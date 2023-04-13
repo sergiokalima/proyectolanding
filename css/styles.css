@@ -49,7 +49,7 @@ a {
   }
 }
 
-header {
+jumbotron {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -142,4 +142,54 @@ h2 {
   border-radius: 3px;
   margin-top: 3px;
   background-color: lemonchiffon;
+}
+
+.texto-card {
+  font-size: 12px;
+  padding: 3px;
+  color: rgb(68, 26, 26);
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 15px;
+}
+
+@media (max-width: 768px)  {
+  .footer-column {
+    flex-basis: 100%;
+    text-align: center;
+  }
 }
